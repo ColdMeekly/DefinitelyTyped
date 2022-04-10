@@ -863,6 +863,7 @@ interface Events {
     nicknameList: [];
     nickname: [steamID: SteamID, newNickname: string | null];
     lobbyInvite: [inviterID: SteamID, lobbyID: SteamID];
+    friendMessage: [senderID: SteamID, message: string];
 }
 //#endregion "Events"
 
